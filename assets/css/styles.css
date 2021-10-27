@@ -1,0 +1,53 @@
+:root{
+--primary-color: rgb(61, 2, 95);
+--white: #fffff;
+--gap: 3rem;
+}
+
+*{
+margin: 0;
+padding: 0;
+}
+
+html{
+    font-size: 62.5% ;
+}
+
+body{
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    color: var(--primary-color);
+
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+
+.main-bg{
+    background-image: url('../img/bg2.svg');
+    background-size: cover;
+    background-position: center center;
+    color: var(--primary-color);
+}
+.white-bg{
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center center;
+    color: var(--primary-color);
+}
+
+.main-content{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: var(--gap);
+}
+
+.section{
+    min-height: 100vh;
+}
