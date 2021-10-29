@@ -21,22 +21,22 @@
 <body>
     <aside class="menu white-bg">
         <div class="main-content menu-content">
-            <h1><a href="#">Logo</a></h1>
+            <h1><a href="#home ">Logo</a></h1>
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="#home">Home</a></li>
                     <li><a href="#decantar">Decantar</a></li>
                     <li><a href="#grid-one">Grid</a></li>
                     <li><a href="#gallery">Gallery</a></li>
                     <li><a href="#prices">Pricing</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </aside>
     <div class="menu-spacing"></div>
 
-    <section class="intro section main-bg">
+    <section id="home" class="intro section main-bg">
         <div class="main-content intro-content">
             <div class="intro-text-content">
                 <h2>Professora Aline Vicenti</h2>
@@ -161,9 +161,51 @@
                     </tfoot>
                 </table>
             </div>
-
        </div>
     </section>
+    <section id="contact" class="intro section main-bg">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <p> Educadora musical, cantora e compositora.<br> Nesta página você encontrará muitas atividades e
+                    brincadeiras musicais e pedagógicas</p>
+                <p> Educadora musical, cantora e compositora.<br> Nesta página você encontrará muitas atividades e
+                    brincadeiras musicais e pedagógicas</p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/contact2.svg" alt="Foto professora Aline Vicenti">
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-grid"> 
+                    <legend>Contato</legend>
+                    <div class="form-group full-width">
+                        <label for="first-name">Nome</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Seu nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Sobrenome</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Seu sobrenome">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="Seu e-mail">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea name="message" id="" cols="30" rows="10" placeholder="Sua mensagem "></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <button type="submit">Enviar</button>                    
+                    </div> 
+                </fieldset>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="footer white-bg">
+        <p>
+            <a rel="nofollow" target="blank" href="https://github.com/natancom2n">Feito com ❤ por Natan</a>
+        </p>
+    </footer>
+    
 </body>
 
 </html>
