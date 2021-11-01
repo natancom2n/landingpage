@@ -1,4 +1,5 @@
 .intro-content {
+
     position: relative;
     /*top: -6.5rem;*/
     display: grid;
@@ -142,5 +143,11 @@
 .footer p{
     margin: 0;
     padding: 3rem;
+}
+@media(max-width: 800px){
+    .intro-content{
+        grid-template-columns: 1fr;
+        background-color: crimson;
+    }
 }
 
