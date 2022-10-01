@@ -16,22 +16,28 @@ body {
     line-height: 1.5;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
-    font-size: 6rem;
+    font-size: 4rem;
     text-transform: uppercase;
 }
 
 h2 {
-    font-size: 7rem;
+    font-size: 5.5rem;
     margin-bottom: 4rem;
     text-transform: uppercase;
     line-height: 1.2;
 }
-h3{
+
+h3 {
     font-size: 3rem;
 }
 
@@ -42,29 +48,35 @@ a {
 p {
     margin-bottom: 2.5rem;
 }
-.responsive-table{
+
+.responsive-table {
     overflow: hidden;
-    overflow-x: auto ;
+    overflow-x: auto;
 }
 
-table{
+table {
     min-width: 36rem;
     width: 100%;
     border-collapse: collapse;
-  
+
 }
-table caption{
+
+table caption {
     font-style: italic;
     font-size: 1.6rem;
     text-align: left;
-    margin-bottom: 1rem ;
+    margin-bottom: 1rem;
 }
-table td, table th{
+
+table td,
+table th {
     white-space: nowrap;
     padding: 1rem;
     text-align: left;
     border: 0.1rem solid var(--light-gray-color);
 }
-tfoot td, thead th {
+
+tfoot td,
+thead th {
     background: var(--light-gray-color);
 }
